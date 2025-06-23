@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENT Bordeaux - Notes & Résultats</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      color: #2f3e4e;
+    }
+    header {
+      background: #1f2a36;
+      color: white;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    nav {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      background: #2d3b4e;
+      padding-top: 20px;
+      box-shadow: 1px 0 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      display: block;
+      color: #cbd6e2;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    nav a.selected,
+    nav a:hover {
+      background: #3f4f6c;
+      color: white;
+    }
+    main {
+      margin: 50px 20px 20px 220px;
+      background: white;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #1f2a36;
+      font-size: 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    th, td {
+      border: 1px solid #d1d9e0;
+      padding: 10px 8px;
+      text-align: center;
+      font-size: 14px;
+    }
+    th {
+      background: #e9edf2;
+      font-weight: 600;
+    }
+    td {
+      background: #fff;
+    }
+    .footer-note {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #6c7a8a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>Université de Bordeaux – ENT</div>
+    <div><strong>YASSER TOURGOUDI</strong></div>
+  </header>
+
+  <nav>
+    <a href="#">Aide</a>
+    <a href="#">Déconnexion</a>
+    <a href="#" class="selected">Notes & résultats</a>
+    <a href="#">État civil</a>
+    <a href="#">Adresses</a>
+    <a href="#">Inscriptions</a>
+  </nav>
+
+  <main>
+    <h2>Notes & Résultats – Licence 3 Mathématiques</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Année</th>
+          <th>Code</th>
+          <th>Diplôme</th>
+          <th>Session</th>
+          <th>Note</th>
+          <th>Résultat</th>
+          <th>Mention</th>
+          <th>Rang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022/2023</td>
+          <td>4LPUS12</td>
+          <td>Licence Mathématiques</td>
+          <td>Session 1</td>
+          <td>11,02 / 20</td>
+          <td>Admis</td>
+          <td>—</td>
+          <td>300 / 1 343</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="footer-note">
+      Ce tableau est une reproduction fidèle de l’interface ENT de l’Université de Bordeaux – site de Talence.
+    </p>
+  </main>
+</body>
+</html>

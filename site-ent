@@ -1,8 +1,43 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>Test simple</title></head>
+<head>
+<meta charset="UTF-8">
+<title>ENT Bordeaux - Notes & Résultats</title>
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  header { background:#2c3e50; color:#fff; padding: 10px 20px; }
+  header .user { float:right;}
+  nav { width:200px; background:#34495e; height:100vh; color:#ecf0f1; position:fixed; top:0; left:0; padding-top:50px; }
+  nav a { display:block; padding:10px 20px; color:#ecf0f1; text-decoration:none; }
+  nav a.selected { background:#1abc9c; }
+  main { margin-left:200px; padding:20px; }
+  table { width:100%; border-collapse:collapse; margin-top:20px; }
+  th, td { border:1px solid #bdc3c7; padding:8px; text-align:center; }
+  th { background:#ecf0f1; }
+</style>
+</head>
 <body>
-  <h1>Mon test GitHub Pages</h1>
-  <p>Si tu vois ce texte, GitHub Pages marche.</p>
+<header>
+  <span>Université de Bordeaux - ENT</span>
+  <span class="user">YASSER TOURGOUDI</span>
+</header>
+<nav>
+  <a href="#">Aide</a>
+  <a href="#">Déconnexion</a>
+  <a href="#" class="selected">Notes & résultats</a>
+  <a href="#">État-civil</a>
+  <a href="#">Adresses</a>
+  <a href="#">Inscriptions</a>
+</nav>
+<main>
+  <h2>Notes & résultats – Licence 3 Maths (2022‑2023)</h2>
+  <table>
+    <tr><th>Année</th><th>Code</th><th>Diplôme</th><th>Session</th><th>Note</th><th>Résultat</th><th>Mention</th><th>Rang</th></tr>
+    <tr>
+      <td>2022/2023</td><td>4LPUS12</td><td>Portail Sciences et technologie</td>
+      <td>Session 1</td><td>11.02/20</td><td>Admis</td><td>—</td><td>300/1343</td>
+    </tr>
+  </table>
+</main>
 </body>
 </html>
